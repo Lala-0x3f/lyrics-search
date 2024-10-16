@@ -119,7 +119,7 @@ export default function Home() {
                   <Image
                     isBlurred
                     alt='bg'
-                    className={cn(zen?'scale-125 mt-[4rem]':'mt-0','object-cover -z-10 transition-all')}
+                    className={cn(zen?'scale-125 mt-[4rem]':'mt-0','object-cover -z-10 !transition-all')}
                     height={400}
                     src={`https://api.lrc.cx/cover?album=${data?.album}`}
                     width={400}
